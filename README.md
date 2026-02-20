@@ -28,13 +28,15 @@ These insights help GoodThought understand which initiatives attract the most fi
 
 **Files Included**
 
--notebook.ipynb → SQL notebook containing the analysis
+-notebook.ipynb → Notebook containing the analysis
 
 -README.md → Project documentation
 
--highest_donation_assignments.csv → Export of SQL result
+-highest_donation_assignments.csv → Export of SQL output
 
--top_regional_impact_assignments.csv → Export of SQL result
+-top_regional_assignments.csv → Export of SQL output
+
+-Relation Between Data Tables.jpg → ERD Diagram that shows how the tables are connected
 
 **Dataset Structure (SQL Tables)**
 
