@@ -4,41 +4,41 @@ This project performs a SQL-based analysis of donation activity and assignment p
 
 The objectives were to:
 
-Identify the top five assignments based on the total value of donations received, categorized by donor type
+- Identify the top five assignments based on the total value of donations received, categorized by donor type
 
-Determine the highest-impact assignment in each region, limited to assignments that have received at least one donation
+- Determine the highest-impact assignment in each region, limited to assignments that have received at least one donation
 
-These insights help GoodThought understand which initiatives attract the most financial support and which deliver the strongest impact across different regions.
+- These insights help GoodThought understand which initiatives attract the most financial support and which deliver the strongest impact across different regions.
 
 **What This Project Achieved (Using MySQL Only)**
 
--Joined the assignments, donations, and donors tables to analyze donor behavior
+- Joined the assignments, donations, and donors tables to analyze donor behavior
 
--Calculated total donation amounts grouped by assignment and donor type
+- Calculated total donation amounts grouped by assignment and donor type
 
--Extracted the top five highest-funded assignments
+- Extracted the top five highest-funded assignments
 
--Counted the total number of donations per assignment
+- Counted the total number of donations per assignment
 
--Applied SQL window functions to identify the highest-impact assignment in every region
+- Applied SQL window functions to identify the highest-impact assignment in every region
 
--Filtered out assignments with zero donations to ensure accuracy
+- Filtered out assignments with zero donations to ensure accuracy
 
--Generated two structured SQL result tables for reporting and insights
+- Generated two structured SQL result tables for reporting and insights
 
 **Files Included**
 
--notebook.ipynb → Notebook containing the analysis
+- notebook.ipynb → Notebook containing the analysis
 
--README.md → Project documentation
+- README.md → Project documentation
 
--SQL Queries → Raw SQL queries used to generate the required tables
+- SQL Queries → Raw SQL queries used to generate the required tables
 
--highest_donation_assignments.csv → Export of SQL output
+- highest_donation_assignments.csv → Export of SQL output
 
--top_regional_assignments.csv → Export of SQL output
+- top_regional_assignments.csv → Export of SQL output
 
--Relation Between Data Tables.jpg → ERD Diagram that shows how the tables are connected
+- Relation Between Data Tables.jpg → ERD Diagram that shows how the tables are connected
 
 **Dataset Structure (SQL Tables)**
 
