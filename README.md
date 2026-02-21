@@ -32,6 +32,8 @@ These insights help GoodThought understand which initiatives attract the most fi
 
 -README.md → Project documentation
 
+-SQL Queries → Raw SQL queries used to generate the required tables
+
 -highest_donation_assignments.csv → Export of SQL output
 
 -top_regional_assignments.csv → Export of SQL output
